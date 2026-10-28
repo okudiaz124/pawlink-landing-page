@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="PawLink conecta a dueños de mascotas con paseadores de confianza.">
+  <title>PawLink | Paseos seguros para tu mejor amigo</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="hero">
+    <div class="overlay"></div>
+    <section class="content">
+      <div class="brand" aria-label="PawLink"><span class="paw">🐾</span><span>PawLink</span></div>
+      <div class="card">
+        <p class="eyebrow">Muy pronto</p>
+        <h1>Paseos seguros para tu mejor amigo</h1>
+        <p class="description">Déjanos tus datos y recibe información sobre PawLink, la plataforma que conectará a dueños de mascotas con paseadores de confianza.</p>
+        <form id="lead-form">
+          <label for="name">Nombre</label>
+          <input id="name" name="name" type="text" placeholder="Tu nombre" autocomplete="name" required>
+          <label for="email">Correo electrónico</label>
+          <input id="email" name="email" type="email" placeholder="nombre@correo.com" autocomplete="email" required>
+          <button type="submit">Quiero recibir información</button>
+          <p class="privacy">Usaremos tus datos únicamente para enviarte información sobre PawLink.</p>
+          <p id="message" class="message" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
